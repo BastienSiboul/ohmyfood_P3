@@ -1,0 +1,12 @@
+$icon-color1: #f04e5f;
+$icon-color2: #f6916a;
+
+i {
+  background:-moz-linear-gradient(left, $icon-color1 0%, $icon-color2 100%);
+  background: -webkit-linear-gradient(left, $icon-color1 0%,$icon-color2 100%);
+  background: linear-gradient(to right, $icon-color1 0%,$icon-color2 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
